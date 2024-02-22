@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    font-family: Arial;
+}
+.background-img{
+    background-image: url('./Fotos/534515.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment:scroll;
+}
+.header{
+    color: white;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 500px;
+    justify-content: space-between;
+}
+.header-left{
+    justify-content: space-around;
+}
+.header-right{
+    justify-content: space-between;
+    display: flex;
+    padding-right: 100px;
+    padding-top: 50px;
+    width: 20%;
+}
+.white{
+    color:white;
+}
+.header-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 30px;
+    width: 30%;
+}
+
+.header-logo{
+    height: 80px;
+    margin-top: 0px;
+    position:
+}
+.button{
+    background-color: rgb(54, 54, 200);
+    color: white;
+    justify-content: space-between;
+}
+.h1-disp{
+    transform-style: uppercase ;
+}
+.div-box{
+    position: absolute;
+}
