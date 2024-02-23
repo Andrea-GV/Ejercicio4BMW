@@ -1,56 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
     <title>BMW</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="background-img">
-
-    <header class="header">
-       <div class="header">
-            <ul class="header-ul">
-                <li>Modelos</li>
-                <li>Promociones</li>
-                <li>Servicios</li>
-                <li>Universo BMW</li>
-            </ul>
-            <div class="header-right">
-                <a class="white" href="https://www.bmw.es/es/publicPools/search-results/search-results.html"><span class="material-symbols-outlined">
-                    search
-                    </span></a>
-                <a class="white" href="https://customer.bmwgroup.com/oneid/#/login?client=bmwwebcom&country=ES&language=es&brand=bmw&scope=svds%20remote_services%20vehicle_data%20authenticate_user%20smacc%20fupo%20cesim%20perseus&response_type=code&redirect_uri=https%3A%2F%2Fwww.bmw.es%2Fstatic%2Flogin%2Ftoken-handler&state=eyJyZXR1cm5VUkwiOiJodHRwczovL3d3dy5ibXcuZXMvZXMvaG9tZS5odG1sP3RsPXNlYS1nbC1FU19CTVdfTkNfQlJBTkQrQ09SRV9TUEFfQk5EX0FMT18rX1BFUkZfK19TRUFBRFctbWl4LW1peS0uLXNlY2gtQlJBX0JORF9DT1JFX01VTFRJX05PTkUtLi1lLWJtdy0uLS4mZ2FkX3NvdXJjZT0xJmdjbGlkPUNqd0tDQWlBX3R1dUJoQVVFaXdBdnhrZ1RvNGh4emhJTGljZXpIWnNlQ3FHVHZYQnRQNUswaFBKLTJ2cGxUb0otZU5tSmhySnMzUzN0eG9DZTI0UUF2RF9Cd0UmZ2Nsc3JjPWF3LmRzJmZseW91dD1vcGVuIiwiZGF0YSI6eyJsYW5ndWFnZSI6ImVzIiwiY291bnRyeSI6IkVTIiwiYnJhbmQiOiJibXcifX0=&epaas_consenttoken=18dd1a674fcaf30b703743fa97e000000000ZXNfRVN8ZHMyfmJtdy1lcw"><span class="material-symbols-outlined">
-                    person
-                    </span></a>
-                <a class="white" href="https://www.bmw.es/es/ssl/citaprevia/encuentra-tu-concesionario.html"><span class="material-symbols-outlined">
-                    location_on
-                    </span></a>
-                <a href="http://bmw.es"><img class="header-logo" src="./Fotos/descarga.jpg" alt="Logo BMW"></a>
-            </div>
-            
-       </div> 
-           </header>
-           <div class="div-box">
-            <h1>tu bmw con disponibilidad inmediata</h1>
-            <h2>Vehículos nuevos en stock</h2>
-            <input class="button" type="button" value="Descúbrelo">
-       </div>
+      <header class="header b-header__underline">
+        <div class="header">
+          <ul class="header-ul">
+            <li>
+              <a class="a-nav" href="https://www.bmw.es/es/coches-bmw.html"
+                >Modelos</a
+              >
+            </li>
+            <li>
+              <a
+                class="a-nav"
+                href="https://www.bmw.es/es/informacion/promociones/ofertas/index.html"
+                >Promociones</a
+              >
+            </li>
+            <li>
+              <a
+                class="a-nav"
+                href="https://www.bmw.es/es/topics/accesorios-servicios/bmw-service/taller/servicios-de-mantenimiento.html"
+                >Servicios</a
+              >
+            </li>
+            <li>
+              <a class="a-nav" href="https://www.bmw.es/es/coche-electrico.html"
+                >Universo BMW</a
+              >
+            </li>
+          </ul>
+          <div class="header-right">
+            <a
+              class="white a-nav"
+              href="https://www.bmw.es/es/publicPools/search-results/search-results.html"
+              ><span class="material-symbols-outlined"> search </span></a
+            >
+            <a
+              class="white a-nav"
+              href="https://customer.bmwgroup.com/oneid/#/login?client=bmwwebcom&country=ES&language=es&brand=bmw&scope=svds%20remote_services%20vehicle_data%20authenticate_user%20smacc%20fupo%20cesim%20perseus&response_type=code&redirect_uri=https%3A%2F%2Fwww.bmw.es%2Fstatic%2Flogin%2Ftoken-handler&state=eyJyZXR1cm5VUkwiOiJodHRwczovL3d3dy5ibXcuZXMvZXMvaG9tZS5odG1sP3RsPXNlYS1nbC1FU19CTVdfTkNfQlJBTkQrQ09SRV9TUEFfQk5EX0FMT18rX1BFUkZfK19TRUFBRFctbWl4LW1peS0uLXNlY2gtQlJBX0JORF9DT1JFX01VTFRJX05PTkUtLi1lLWJtdy0uLS4mZ2FkX3NvdXJjZT0xJmdjbGlkPUNqd0tDQWlBX3R1dUJoQVVFaXdBdnhrZ1RvNGh4emhJTGljZXpIWnNlQ3FHVHZYQnRQNUswaFBKLTJ2cGxUb0otZU5tSmhySnMzUzN0eG9DZTI0UUF2RF9Cd0UmZ2Nsc3JjPWF3LmRzJmZseW91dD1vcGVuIiwiZGF0YSI6eyJsYW5ndWFnZSI6ImVzIiwiY291bnRyeSI6IkVTIiwiYnJhbmQiOiJibXcifX0=&epaas_consenttoken=18dd1a674fcaf30b703743fa97e000000000ZXNfRVN8ZHMyfmJtdy1lcw"
+              ><span class="material-symbols-outlined"> person </span></a
+            >
+            <a
+              class="white a-nav"
+              href="https://www.bmw.es/es/ssl/citaprevia/encuentra-tu-concesionario.html"
+              ><span class="material-symbols-outlined"> location_on </span></a
+            >
+            <a href="http://bmw.es"
+              ><img
+                class="header-logo"
+                src="./Fotos/descarga.jpg"
+                alt="Logo BMW"
+            /></a>
+          </div>
+        </div>
+      </header>
+      <div class="div-box white">
+        <h1 class="h1-disp">tu bmw con disponibilidad inmediata</h1>
+        <p class="h1-disp_p">Vehículos nuevos en stock</p>
+        <input class="button" type="button" value="Descúbrelo" />
+      </div>
     </div>
-    <div>
-        <ul>
-            <li>Cabrio</li>
-            <li>Berlina</li>
-            <li>Compacto</li>
-            <li>Coupé</li>
-            <li>BMW i</li>
-            <li>Todocamino</li>
-            <li>Touring</li>
-            <li>Roadster</li>
-            <li>Gran Tourino</li>
+    <main>
+      <div>
+        <ul class="main-ul">
+          <li>
+            <a
+              class="main-ul_li"
+              href="https://www.bmw.es/es/coches-bmw/serie-8/cabrio/2022/caracteristicas.html"
+              >Cabrio</a
+            >
+          </li>
+          <li>
+            <a
+              class="main-ul_li"
+              href="https://www.bmw.es/es/coches-bmw/vision-general-berlina-bmw.html"
+              >Berlina</a
+            >
+          </li>
+          <li>
+            <a
+              class="main-ul_li"
+              href="https://www.bmw.es/es/topics/mundo-bmw/cultura-bmw/noticias/experiencias-conduccion/suv-compactos.html"
+              >Compacto</a
+            >
+          </li>
+          <li>
+            <a
+              class="main-ul_li"
+              href="https://www.bmw.es/es/topics/presentacion/coches-coupe-bmw.html?&tl=sea-gl-ES_BMW_NC_CARLINE_SPA_BND_ALO_%20_PERF_%20_SEAADW-mix-miy-.-sech-BRA_BND_COUPE_MULTI_NONE-.-e-bmw%20coupe-.-.&gad_source=1&gclid=Cj0KCQiAoeGuBhCBARIsAGfKY7y95I0XJJWRvlC2XHQJ81h6N6FcIrox9HNbqIxAxg_Ucv3M77NbQLQaAr1XEALw_wcB&gclsrc=aw.ds"
+              >Coupé</a
+            >
+          </li>
+          <li>
+            <a
+              class="main-ul_li"
+              href="https://www.bmw.es/es/coche-electrico.html"
+              >BMW i</a
+            >
+          </li>
+          <li>
+            <a
+              class="main-ul_li"
+              href="https://www.bmw.es/es/topics/presentacion/coches-todocamino-bmw.html?&tl=sea-gl-ES_BMW_NC_CARLINE_SPA_BND_ALO_%20_PERF_%20_SEAADW-mix-miy-.-sech-BRA_BND_SUV_MULTI_NONE-.-e-bmw%20todoterreno-.-.&gad_source=1&gclid=Cj0KCQiAoeGuBhCBARIsAGfKY7xkx77yRJd3SXmYuJnvWaKGio45Mu9Ls9ib74NU5ke45FpKyLNCDgkaAovXEALw_wcB&gclsrc=aw.ds"
+              >Todocamino</a
+            >
+          </li>
+          <li>
+            <a
+              class="main-ul_li"
+              href="https://www.bmw.es/es/coches-bmw/serie-3/touring/2022/caracteristicas.html"
+              >Touring</a
+            >
+          </li>
+          <li>
+            <a
+              class="main-ul_li"
+              href="https://www.bmw-motorrad.es/es/models/roadster/overview-roadster.html"
+              >Roadster</a
+            >
+          </li>
+          <li>
+            <a
+              class="main-ul_li"
+              href="https://www.bmw.es/es/topics/mundo-bmw/cultura-bmw/noticias/experiencias-conduccion/serie-2-gran-tourer-familiar-7-plazas.html"
+              >Grand Tourer</a
+            >
+          </li>
         </ul>
-    </div>
-</body>
+      </div>
+
+    <section>
+      <div class="sec-div-img">
+        <img class="sec-img" src="./Fotos/modelo1.jpg" alt="Coche 1" />
+        <h3 class="sec-h3">BMW Serie Cabrio 2</h3>
+        <p class="sec-div-price sec-div-car-col">Desde 25.700€ 
+            <span class="material-symbols-outlined sec-div-price-icon">
+            info
+            </span>
+        </p>
+        <span class="sec-div-car"> Configurar</span>
+        <span class="sec-div-car"> Explorar</span>
+      </div>
+      <div class="sec-div-img">
+        <img class="sec-img" src="./Fotos/modelo1.jpg" alt="Coche 1" />
+        <h3 class="sec-h3">BMW Serie Cabrio 2</h3>
+        <p class="sec-div-price sec-div-car-col">Desde 25.700€ 
+            <span class="material-symbols-outlined sec-div-price-icon">
+            info
+            </span>
+        </p>
+        <span class="sec-div-car"> Configurar</span>
+        <span class="sec-div-car"> Explorar</span>
+      </div>
+      <div class="sec-div-img">
+        <img class="sec-img" src="./Fotos/modelo1.jpg" alt="Coche 1" />
+        <h3 class="sec-h3">BMW Serie Cabrio 2</h3>
+        <p class="sec-div-price sec-div-car-col">Desde 25.700€ 
+            <span class="material-symbols-outlined sec-div-price-icon">
+            info
+            </span>
+        </p>
+        <span class="sec-div-car"> Configurar</span>
+        <span class="sec-div-car"> Explorar</span>
+      </div>
+      <div class="sec-div-img">
+        <img class="sec-img" src="./Fotos/modelo1.jpg" alt="Coche 1" />
+        <h3 class="sec-h3">BMW Serie Cabrio 2</h3>
+        <p class="sec-div-price sec-div-car-col">Desde 25.700€ 
+            <span class="material-symbols-outlined sec-div-price-icon">
+            info
+            </span>
+        </p>
+        <span class="sec-div-car"> Configurar</span>
+        <span class="sec-div-car"> Explorar</span>
+      </div>
+      <div class="sec-div-img">
+        <img class="sec-img" src="./Fotos/modelo1.jpg" alt="Coche 1" />
+        <h3 class="sec-h3">BMW Serie Cabrio 2</h3>
+        <p class="sec-div-price sec-div-car-col">Desde 25.700€ 
+            <span class="material-symbols-outlined sec-div-price-icon">
+            info
+            </span>
+        </p>
+        <span class="sec-div-car"> Configurar</span>
+        <span class="sec-div-car"> Explorar</span>
+      </div>  <div class="sec-div-img">
+        <img class="sec-img" src="./Fotos/modelo1.jpg" alt="Coche 1" />
+        <h3 class="sec-h3">BMW Serie Cabrio 2</h3>
+        <p class="sec-div-price sec-div-car-col">Desde 25.700€ 
+            <span class="material-symbols-outlined sec-div-price-icon">
+            info
+            </span>
+        </p>
+        <span class="sec-div-car"> Configurar</span>
+        <span class="sec-div-car"> Explorar</span>
+      </div>  <div class="sec-div-img">
+        <img class="sec-img" src="./Fotos/modelo1.jpg" alt="Coche 1" />
+        <h3 class="sec-h3">BMW Serie Cabrio 2</h3>
+        <p class="sec-div-price sec-div-car-col">Desde 25.700€ 
+            <span class="material-symbols-outlined sec-div-price-icon">
+            info
+            </span>
+        </p>
+        <span class="sec-div-car"> Configurar</span>
+        <span class="sec-div-car"> Explorar</span>
+      </div>  <div class="sec-div-img">
+        <img class="sec-img" src="./Fotos/modelo1.jpg" alt="Coche 1" />
+        <h3 class="sec-h3">BMW Serie Cabrio 2</h3>
+        <p class="sec-div-price sec-div-car-col">Desde 25.700€ 
+            <span class="material-symbols-outlined sec-div-price-icon">
+            info
+            </span>
+        </p>
+        <span class="sec-div-car"> Configurar</span>
+        <span class="sec-div-car"> Explorar</span>
+      </div>
+      <div class="sec-div-img">
+        <img class="sec-img" src="./Fotos/modelo1.jpg" alt="Coche 1" />
+        <h3 class="sec-h3">BMW Serie Cabrio 2</h3>
+        <p class="sec-div-price sec-div-car-col">Desde 25.700€ 
+            <span class="material-symbols-outlined sec-div-price-icon">
+            info
+            </span>
+        </p>
+        <span class="sec-div-car"> Configurar</span>
+        <span class="sec-div-car"> Explorar</span>
+      </div>  <div class="sec-div-img">
+        <img class="sec-img" src="./Fotos/modelo1.jpg" alt="Coche 1" />
+        <h3 class="sec-h3">BMW Serie Cabrio 2</h3>
+        <p class="sec-div-price sec-div-car-col">Desde 25.700€ 
+            <span class="material-symbols-outlined sec-div-price-icon">
+            info
+            </span>
+        </p>
+        <span class="sec-div-car"> Configurar</span>
+        <span class="sec-div-car"> Explorar</span>
+      </div>  <div class="sec-div-img">
+        <img class="sec-img" src="./Fotos/modelo1.jpg" alt="Coche 1" />
+        <h3 class="sec-h3">BMW Serie Cabrio 2</h3>
+        <p class="sec-div-price sec-div-car-col">Desde 25.700€ 
+            <span class="material-symbols-outlined sec-div-price-icon">
+            info
+            </span>
+        </p>
+        <span class="sec-div-car"> Configurar</span>
+        <span class="sec-div-car"> Explorar</span>
+      </div>  <div class="sec-div-img">
+        <img class="sec-img" src="./Fotos/modelo1.jpg" alt="Coche 1" />
+        <h3 class="sec-h3">BMW Serie Cabrio 2</h3>
+        <p class="sec-div-price sec-div-car-col">Desde 25.700€ 
+            <span class="material-symbols-outlined sec-div-price-icon">
+            info
+            </span>
+        </p>
+        <span class="sec-div-car"> Configurar</span>
+        <span class="sec-div-car"> Explorar</span>
+      </div>
+    </section>
+    </main>
+  </body>
 </html>
